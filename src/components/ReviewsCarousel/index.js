@@ -67,7 +67,7 @@ class ReviewsCarousel extends Component {
             type="button"
             className="arrow-button"
             testid="rightArrow"
-            onClick={this.onClickLeftArrow}
+            onClick={this.onClickRightArrow}
           >
             <img
               src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png "
