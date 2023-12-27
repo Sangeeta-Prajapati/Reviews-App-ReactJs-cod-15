@@ -4,9 +4,7 @@ import {Component} from 'react'
 import './index.css'
 
 class ReviewsCarousel extends Component {
-  state = {
-    activeReviewsIndex: 0,
-  }
+  state = {activeReviewsIndex: 0}
 
   onClickRightArrow = () => {
     const {activeReviewsIndex} = this.state
@@ -54,7 +52,7 @@ class ReviewsCarousel extends Component {
           <button
             type="button"
             className="arrow-button"
-            testid="leftArrow"
+            data-testid="leftArrow"
             onClick={this.onClickLeftArrow}
           >
             <img
@@ -66,7 +64,7 @@ class ReviewsCarousel extends Component {
           <button
             type="button"
             className="arrow-button"
-            testid="rightArrow"
+            data-testid="rightArrow"
             onClick={this.onClickRightArrow}
           >
             <img
